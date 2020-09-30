@@ -1,0 +1,11 @@
+.BasicCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 3px;
+
+  &__thumbnail {
+    margin: 1rem 0;
+  }
+}

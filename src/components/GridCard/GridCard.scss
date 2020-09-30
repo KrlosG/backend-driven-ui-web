@@ -1,0 +1,24 @@
+.GridCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 3px;
+
+  &__grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 1rem 0;
+  }
+
+  &__thumbnail {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+    }
+  }
+}
